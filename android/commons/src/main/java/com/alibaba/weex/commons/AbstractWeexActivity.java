@@ -254,6 +254,7 @@ public abstract class AbstractWeexActivity extends AppCompatActivity implements 
   protected void createWeexInstance(){
     destoryWeexInstance();
 
+    //你告诉我这个Rect干嘛用的
     Rect outRect = new Rect();
     getWindow().getDecorView().getWindowVisibleDisplayFrame(outRect);
 

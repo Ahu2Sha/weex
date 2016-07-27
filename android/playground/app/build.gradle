@@ -6,12 +6,12 @@ android {
 
     defaultConfig {
         applicationId "com.alibaba.weex"
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 23
         versionCode 1
         versionName "0.5.2.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        ndk{
+        ndk {
             abiFilters "armeabi-v7a"
             abiFilters "x86"
             abiFilters "armeabi"
